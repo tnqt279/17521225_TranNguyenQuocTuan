@@ -1,0 +1,10 @@
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\cab1.cab
+obj\Debug\Product.wixobj
+obj\Debug\SetupProject1.wixproj.BindContentsFileListnull.txt
+obj\Debug\SetupProject1.wixproj.BindOutputsFileListnull.txt
+obj\Debug\SetupProject1.wixproj.BindBuiltOutputsFileListnull.txt
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.msi
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.wixpdb
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\cab1.cab
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.msi
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.wixpdb

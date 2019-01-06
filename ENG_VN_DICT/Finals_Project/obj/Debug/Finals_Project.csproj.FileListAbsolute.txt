@@ -1,0 +1,22 @@
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe.config
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.pdb
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.Form1.resources
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.Properties.Resources.resources
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csproj.GenerateResource.cache
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csproj.CoreCompileInputs.cache
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.exe
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.pdb
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Resources\dict.xml
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Resources\dict.xml
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe.config
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.pdb
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csprojResolveAssemblyReference.cache
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.Form1.resources
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.Properties.Resources.resources
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csproj.GenerateResource.cache
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.csproj.CoreCompileInputs.cache
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.exe
+C:\Users\tuan\Desktop\FINALS_PROJECT_17521225\Finals_Project\obj\Debug\Finals_Project.pdb

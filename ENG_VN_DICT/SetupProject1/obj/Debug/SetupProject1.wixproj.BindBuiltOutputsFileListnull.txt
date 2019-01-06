@@ -1,0 +1,3 @@
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\cab1.cab
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.msi
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\SetupProject1\bin\Debug\ENG-VN DICT.wixpdb

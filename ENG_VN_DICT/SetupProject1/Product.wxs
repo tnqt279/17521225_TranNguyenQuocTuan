@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi" xmlns:netfx="http://schemas.microsoft.com/wix/NetFxExtension"><?define Finals_Project_TargetDir=$(var.Finals_Project.TargetDir)?>
+	<Product Id="*" Name="ENG-VN DICT" Language="1033" Version="1.0.0.0" Manufacturer="TuanT" UpgradeCode="69c09abb-d7d9-45ea-9b49-ed9949b642f9">
+		<Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    
+    <UIRef Id="WixUI_Minimal" />
+    
+
+		<MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+		<MediaTemplate />
+
+		<Feature Id="ProductFeature" Title="ENG-VN DICT" Level="1">
+			<ComponentGroupRef Id="ProductComponents" />
+      <ComponentRef Id="ApplicationShortcut" />
+      <ComponentRef Id="ApplicationShortcutDesktop" />
+			<ComponentGroupRef Id="Resources_files" />
+		</Feature>
+	</Product>
+
+	<Fragment>
+		<Directory Id="TARGETDIR" Name="SourceDir">
+			<Directory Id="ProgramFilesFolder">
+				<Directory Id="INSTALLFOLDER" Name="ENG-VN DICT">
+				  <Directory Id="Resources" Name="Resources" />
+				</Directory>
+			</Directory>
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="ENG-VN DICT" />
+      </Directory>
+      <Directory Id="DesktopFolder" Name="Desktop" />
+		</Directory>
+	</Fragment>
+
+  <Fragment>
+  <DirectoryRef Id="ApplicationProgramsFolder">
+    <Component Id="ApplicationShortcut" Guid="6FD296FC-D315-4B98-BC0D-633D7C04AFD6">
+      <Shortcut Id="ApplicationStartMenuShortcut" Name="ENG-VN DICT" Description="ENG-VN DICT" Target="[INSTALLFOLDER]Finals_Project.exe" WorkingDirectory="INSTALLFOLDER" />
+      <RemoveFolder Id="RemoveApplicationProgramsFolder" Directory="ApplicationProgramsFolder" On="uninstall" />
+      <RegistryValue Root="HKCU" Key="Software\ENG-VN DICT" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+    </Component>
+  </DirectoryRef>
+  <DirectoryRef Id="DesktopFolder">
+   <Component Id="ApplicationShortcutDesktop" Guid="51E055D0-4C2F-49B8-AACB-A69869C2AF3C">
+     <Shortcut Id="ApplicationDesktopShortcut" Name="ENG-VN DICT" Description="ENG-VN DICT" Target="[INSTALLFOLDER]Finals_Project.exe" WorkingDirectory="INSTALLFOLDER" />
+      <RemoveFolder Id="RemoveDesktopFolder" Directory="DesktopFolder" On="uninstall" />
+      <RegistryValue Root="HKCU" Key="Software\ENG-VN DICT" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+    </Component>
+  </DirectoryRef>
+  </Fragment>
+    
+	<Fragment>
+		<ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
+			<!-- TODO: Remove the comments around this Component element and the ComponentRef below in order to add resources to this installer. -->
+			<!-- <Component Id="ProductComponent"> -->
+				<!-- TODO: Insert files, registry keys, and other resources here. -->
+			<!-- </Component> -->
+			<Component Id="Finals_Project.exe" Guid="57054EB6-BA1E-4A20-8CB6-6401AA343F52">
+			  <File Id="Finals_Project.exe" Name="Finals_Project.exe" Source="$(var.Finals_Project_TargetDir)Finals_Project.exe" />
+			</Component>
+			<Component Id="Finals_Project.exe.config" Guid="63AD0EE6-EB9A-41F9-AF52-15868F167068">
+			  <File Id="Finals_Project.exe.config" Name="Finals_Project.exe.config" Source="$(var.Finals_Project_TargetDir)Finals_Project.exe.config" />
+			</Component>
+		</ComponentGroup>
+	</Fragment>
+
+  <Fragment>
+    <ComponentGroup Id="Resources_files" Directory="Resources">
+      <Component Id="Resources_dict.xml" Guid="A7048864-8FA3-45EE-B9F6-94A83EC87877">
+        <File Id="Resources_dict.xml" Name="dict.xml" Source="$(var.Finals_Project_TargetDir)Resources\dict.xml" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+</Wix>

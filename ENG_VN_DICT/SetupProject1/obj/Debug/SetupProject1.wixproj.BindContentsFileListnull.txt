@@ -1,0 +1,3 @@
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Finals_Project.exe.config
+C:\Users\tuan\Documents\Personal Files\WORKS\Programming Projects\FINALS_PROJECT_17521225\Finals_Project\bin\Debug\Resources\dict.xml
