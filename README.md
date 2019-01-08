@@ -1,4 +1,6 @@
-## Ứng dụng từ điển Anh-Việt ##
+# Ứng dụng từ điển Anh-Việt #
+
+Một ứng dụng từ điển đơn giản với các chức năng căn bản.
 
 ### Chức năng ###
 
